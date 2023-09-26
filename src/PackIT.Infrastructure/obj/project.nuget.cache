@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3utPheDuKz3rS1+4sWMnwTQLLE7723a6CwQvj87uxrUnUJeKkoO7VP7GzlM/BmyjHZD7aBRm/ArjPJ7MTx1PhQ==",
+  "dgSpecHash": "CxSyEmANLPtylJnCZujJQ4jY6yMm4hKPjRpf6YIGoyiJjPRL9Vh7Z0XBh0cHP9stPN52sh8FiLMQwOeGOUQgmQ==",
   "success": true,
   "projectFilePath": "d:\\tutorials\\clean-architecture-cqrs-dotnet\\PackIT\\src\\PackIT.Infrastructure\\PackIT.Infrastructure.csproj",
   "expectedPackageFiles": [],

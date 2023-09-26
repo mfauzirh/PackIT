@@ -124,6 +124,9 @@
       "PackIT.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "PackIT.Shared.Abstractions": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/PackIT.Domain.dll": {}
         },
@@ -142,6 +145,16 @@
         },
         "runtime": {
           "bin/placeholder/PackIT.Infrastructure.dll": {}
+        }
+      },
+      "PackIT.Shared.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/PackIT.Shared.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PackIT.Shared.Abstractions.dll": {}
         }
       }
     }
@@ -511,6 +524,11 @@
       "type": "project",
       "path": "../PackIT.Infrastructure/PackIT.Infrastructure.csproj",
       "msbuildProject": "../PackIT.Infrastructure/PackIT.Infrastructure.csproj"
+    },
+    "PackIT.Shared.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../PackIT.Shared.Abstractions/PackIT.Shared.Abstractions.csproj",
+      "msbuildProject": "../PackIT.Shared.Abstractions/PackIT.Shared.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
